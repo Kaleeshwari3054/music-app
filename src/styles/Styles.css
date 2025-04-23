@@ -1,0 +1,523 @@
+*{
+  text-decoration: none;
+  background-color: #ffffff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; 
+font-family: 'Roboto', Arial, sans-serif; /* Improved font for better readability */
+color: #333; /* Consistent text color */
+line-height: 1.6; /* Added line height for better text spacing */
+background-color: #f9f9f9; /* Subtle background color for better contrast */
+}
+
+.spotify-ui {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1db954;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.header.scrolled {
+  background-color: #14843b; /* Dimmed green color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+/* Search bar styling */
+.search-container {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+}
+
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #666;
+}
+
+.search-input:focus {
+  border-color: #1db954;
+}
+
+.profile-icon {
+  background-color: #ffffff;
+  color: #1db954;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header-options button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: white;
+  color: #1db954;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1; 
+  overflow-y: auto; 
+  margin-left: 20px;
+
+  /* background-color: #f0f0f0; */
+}
+
+/* .section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+} */
+/* Section title for Popular Artists */
+/* .popular-artists-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem 2rem;
+  color: #333;
+} */
+
+/* Popular Artists container */
+.popular-artists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 300px; /* Gap of 300px between circular cards */
+  margin: 2rem;
+  justify-content: flex-start;
+}
+
+/* Artist card styling */
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  width: 220px;
+}
+
+/* Circular movie images */
+.movie-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Artist name styling */
+.artist-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Container for recently played section */
+.recently-played {
+  display: flex; /* Use flexbox for alignment */
+  flex-wrap: wrap; /* Allow wrapping of cards to the next row */
+  justify-content: flex-start; /* Align items to the start */
+  gap: 30px; /* Add 300px gap between each card */
+  margin: 2rem; /* Optional margin for the container */
+}
+.recently-played1{
+  display: flex; /* Use flexbox for alignment */
+  flex-wrap: wrap; /* Allow wrapping of cards to the next row */
+  justify-content: flex-start; /* Align items to the start */
+  gap: 30px; /* Add 300px gap between each card */
+  margin: 2rem; /* Optional margin for the container */
+  margin-bottom: 100px;
+
+}
+/* Styling the song card */
+.song-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  width: 220px;
+}
+
+/* Square song image */
+.song-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Circle movie image */
+.movie-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 0.5rem;
+}
+
+
+/* Song title styling */
+.song-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Music details styling */
+.music-details {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.song-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.actor-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin: 0.5rem 0;
+}
+
+.music-details {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
+.section-title-container {
+  display: flex;
+  justify-content: space-between; /* change from space-evenly */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.show-all-btn {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.show-all-btn:hover {
+  background-color: #1aa34a;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #1db954;
+  color: white;
+}
+
+.footer-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-btn:hover {
+  text-decoration: underline;
+}
+/* General Page Styles for All Artists */
+.all-artists-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Back Button Styles */
+.go-back-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #1db954;
+  color:black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.go-back-btn:hover {
+  background-color: #1aa34a;
+}
+
+/* Page Header Styles */
+.all-artists-page h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Grid Layout for Artist Cards */
+.artists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Artist Card Styles */
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 200px;
+  cursor: pointer;
+}
+
+.artist-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Artist Image Styles */
+.artist-image {
+  width: 120px; /* Adjust as needed */
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.artist-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+
+
+/* Artist Name Styles */
+.artist-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+ .image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.play-icon {
+  position: absolute;
+  bottom: 25px;
+  right: 40px;
+  font-size: 20px;
+  color: white;
+  background: #1db954;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.play-artist-icon{
+
+  position: absolute;
+  bottom: 25px;
+  right: 40px;
+  font-size: 20px;
+  color: white;
+  background: #1db954;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+/* .image-container:hover .play-icon {
+  opacity: 1;
+  transform: scale(1.1);
+} */
+
+/* .image-container:hover .song-image,
+.image-container:hover .movie-image {
+  filter: brightness(85%);
+} */
+.artist-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.artist-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.artist-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.artist-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.artist-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.artist-card:hover {
+  transform: translateY(-5px);
+}
+
+.artist-image-container {
+  position: relative;
+  width: 100%;
+  height: 200px; /* Set a fixed height for all images */
+  overflow: hidden;
+  /* border-bottom: 2px solid #ddd; */
+}
+
+.artist-image {
+  width: 100%;
+  height: 100%; /* Fills the container while respecting aspect ratio */
+  object-fit: cover; /* Ensures images are cropped to fill the container */
+  transition: filter 0.3s ease-in-out;
+}
+
+
+.artist-play-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #1db954;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* .artist-image-container:hover .artist-play-icon {
+  opacity: 1;
+  transform: scale(1.1);
+} */
+
+.artist-image-container:hover .artist-image {
+  filter: brightness(85%);
+}
+
+.artist-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.artist-movie {
+  font-size: 14px;
+  color: #666;
+}
+
+.login-btn{
+  background-color: aqua;
+  width:100px;
+  margin-left: 0px;
+}
+
+
+.login-btn:hover{
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}

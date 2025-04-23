@@ -1,0 +1,303 @@
+[
+    {
+      "id": "song001",
+      "title": "Tum Hi Ho",
+      "duration": 245,
+      "language": "Hindi",
+      "release_date": "2013-04-08",
+      "genre": ["Romantic", "Drama"],
+      "album": {
+        "name": "Aashiqui 2",
+        "release_year": 2013
+      },
+      "movie": {
+        "title": "Aashiqui 2",
+        "director": "Mohit Suri",
+        "producers": ["Mahesh Bhatt", "Mukesh Bhatt"]
+      },
+      "artists": {
+        "singers": ["Arijit Singh"],
+        "music_directors": ["Mithoon"],
+        "lyricists": ["Mithoon"]
+      },
+      "media": {
+        "cover_image_url": "https://upload.wikimedia.org/wikipedia/en/f/ff/Tum_Hi_Ho_cover.jpeg",
+        "audio_url": "https://example.com/audio/tum_hi_ho.mp3"
+      },
+      "metadata": {
+        "likes": 120000,
+        "plays": 5000000
+      }
+    },
+    {
+      "id": "song002",
+      "title": "Kesariya",
+      "duration": 210,
+      "language": "Hindi",
+      "release_date": "2022-07-15",
+      "genre": ["Romantic"],
+      "album": {
+        "name": "Brahmastra",
+        "release_year": 2022
+      },
+      "movie": {
+        "title": "Brahmastra",
+        "director": "Ayan Mukerji",
+        "producers": ["Karan Johar"]
+      },
+      "artists": {
+        "singers": ["Arijit Singh"],
+        "music_directors": ["Pritam"],
+        "lyricists": ["Amitabh Bhattacharya"]
+      },
+      "media": {
+        "cover_image_url": "https://i.scdn.co/image/ab67616d0000b273c08202c50371e234d20caf62",
+        "audio_url": "https://example.com/audio/kesariya.mp3"
+      },
+      "metadata": {
+        "likes": 95000,
+        "plays": 4200000
+      }
+    },
+    {
+      "id": "song003",
+      "title": "Why This Kolaveri Di",
+      "duration": 260,
+      "language": "Tamil",
+      "release_date": "2011-11-16",
+      "genre": ["Folk", "Experimental"],
+      "album": {
+        "name": "3",
+        "release_year": 2012
+      },
+      "movie": {
+        "title": "3",
+        "director": "Aishwarya R. Dhanush",
+        "producers": ["Dhanush"]
+      },
+      "artists": {
+        "singers": ["Dhanush"],
+        "music_directors": ["Anirudh Ravichander"],
+        "lyricists": ["Dhanush"]
+      },
+      "media": {
+        "cover_image_url": "https://upload.wikimedia.org/wikipedia/en/d/db/Whu_this_kolaveri_di.JPG",
+        "audio_url": "https://example.com/audio/kolaveri.mp3"
+      },
+      "metadata": {
+        "likes": 150000,
+        "plays": 7000000
+      }
+    },
+    {
+      "id": "song004",
+      "title": "Vaathi Coming",
+      "duration": 230,
+      "language": "Tamil",
+      "release_date": "2020-03-10",
+      "genre": ["Folk", "Dance"],
+      "album": {
+        "name": "Master",
+        "release_year": 2021
+      },
+      "movie": {
+        "title": "Master",
+        "director": "Lokesh Kanagaraj",
+        "producers": ["Xavier Britto"]
+      },
+      "artists": {
+        "singers": ["Anirudh Ravichander", "Gana Balachandar"],
+        "music_directors": ["Anirudh Ravichander"],
+        "lyricists": ["Gana Balachandar"]
+      },
+      "media": {
+        "cover_image_url": "https://w0.peakpx.com/wallpaper/203/927/HD-wallpaper-thalapathy-vijay-sky-vaathi-coming-master-thumbnail.jpg",
+        "audio_url": "https://example.com/audio/vaathi_coming.mp3"
+      },
+      "metadata": {
+        "likes": 130000,
+        "plays": 6000000
+      }
+    },
+    {
+      "id": "song005",
+      "title": "Ghungroo",
+      "duration": 225,
+      "language": "Hindi",
+      "release_date": "2019-10-23",
+      "genre": ["Pop", "Dance"],
+      "album": {
+        "name": "War",
+        "release_year": 2019
+      },
+      "movie": {
+        "title": "War",
+        "director": "Siddharth Anand",
+        "producers": ["Aditya Chopra"]
+      },
+      "artists": {
+        "singers": ["Arijit Singh", "Shilpa Rao"],
+        "music_directors": ["Vishal–Shekhar"],
+        "lyricists": ["Kumaar"]
+      },
+      "media": {
+        "cover_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHdb0dvJdbfP5L1R7InKBbfRLJBfqRZ_6Hw&s",
+        "audio_url": "https://example.com/audio/ghungroo.mp3"
+      },
+      "metadata": {
+        "likes": 89000,
+        "plays": 3100000
+      }
+    },
+    {
+      "id": "song006",
+      "title": "Aarambh Hai Prachand",
+      "duration": 275,
+      "language": "Hindi",
+      "release_date": "2009-12-04",
+      "genre": ["Motivational", "Rock"],
+      "album": {
+        "name": "Gulaal",
+        "release_year": 2009
+      },
+      "movie": {
+        "title": "Gulaal",
+        "director": "Anurag Kashyap",
+        "producers": ["Zee Studios"]
+      },
+      "artists": {
+        "singers": ["Piyush Mishra"],
+        "music_directors": ["Piyush Mishra"],
+        "lyricists": ["Piyush Mishra"]
+      },
+      "media": {
+        "cover_image_url": "https://c.saavncdn.com/317/Gulaal-Hindi-2009-20221125215618-500x500.jpg",
+        "audio_url": "https://example.com/audio/aarambh.mp3"
+      },
+      "metadata": {
+        "likes": 46000,
+        "plays": 1300000
+      }
+    },
+    {
+      "id": "song007",
+      "title": "Rowdy Baby",
+      "duration": 215,
+      "language": "Tamil",
+      "release_date": "2018-11-27",
+      "genre": ["Dance", "Pop"],
+      "album": {
+        "name": "Maari 2",
+        "release_year": 2018
+      },
+      "movie": {
+        "title": "Maari 2",
+        "director": "Balaji Mohan",
+        "producers": ["Dhanush"]
+      },
+      "artists": {
+        "singers": ["Dhanush", "Dhee"],
+        "music_directors": ["Yuvan Shankar Raja"],
+        "lyricists": ["Poetu Dhanush"]
+      },
+      "media": {
+        "cover_image_url": "https://cdn.gulte.com/wp-content/uploads/2021/07/Rowdy-Baby.jpg",
+        "audio_url": "https://example.com/audio/rowdy_baby.mp3"
+      },
+      "metadata": {
+        "likes": 200000,
+        "plays": 8500000
+      }
+    },
+    {
+      "id": "song008",
+      "title": "Kaala Chashma",
+      "duration": 205,
+      "language": "Hindi",
+      "release_date": "2016-07-15",
+      "genre": ["Party", "Dance"],
+      "album": {
+        "name": "Baar Baar Dekho",
+        "release_year": 2016
+      },
+      "movie": {
+        "title": "Baar Baar Dekho",
+        "director": "Nitya Mehra",
+        "producers": ["Karan Johar", "Farhan Akhtar"]
+      },
+      "artists": {
+        "singers": ["Amar Arshi", "Badshah", "Neha Kakkar"],
+        "music_directors": ["Prem-Hardeep", "Badshah"],
+        "lyricists": ["Amrik Singh", "Kumaar", "Badshah"]
+      },
+      "media": {
+        "cover_image_url": "https://i.ytimg.com/vi/PHEw0Qazdh0/sddefault.jpg",
+        "audio_url": "https://example.com/audio/kaala_chashma.mp3"
+      },
+      "metadata": {
+        "likes": 175000,
+        "plays": 7200000
+      }
+    },
+    {
+      "id": "song009",
+      "title": "Senorita",
+      "duration": 240,
+      "language": "Hindi",
+      "release_date": "2011-07-15",
+      "genre": ["Latin", "Romantic"],
+      "album": {
+        "name": "Zindagi Na Milegi Dobara",
+        "release_year": 2011
+      },
+      "movie": {
+        "title": "Zindagi Na Milegi Dobara",
+        "director": "Zoya Akhtar",
+        "producers": ["Farhan Akhtar", "Ritesh Sidhwani"]
+      },
+      "artists": {
+        "singers": ["Hrithik Roshan", "Abhay Deol", "Farhan Akhtar", "Maria del Mar Fernandez"],
+        "music_directors": ["Shankar–Ehsaan–Loy"],
+        "lyricists": ["Javed Akhtar"]
+      },
+      "media": {
+        "cover_image_url": "https://i.pinimg.com/736x/54/ea/b3/54eab3e7defa546ac5202597b1bb2b09.jpg",
+        "audio_url": "https://example.com/audio/senorita.mp3"
+      },
+      "metadata": {
+        "likes": 90000,
+        "plays": 3400000
+      }
+    },
+    {
+      "id": "song010",
+      "title": "Teri Mitti",
+      "duration": 250,
+      "language": "Hindi",
+      "release_date": "2019-03-15",
+      "genre": ["Patriotic"],
+      "album": {
+        "name": "Kesari",
+        "release_year": 2019
+      },
+      "movie": {
+        "title": "Kesari",
+        "director": "Anurag Singh",
+        "producers": ["Karan Johar"]
+      },
+      "artists": {
+        "singers": ["B Praak"],
+        "music_directors": ["Arko"],
+        "lyricists": ["Manoj Muntashir"]
+      },
+      "media": {
+        "cover_image_url": "https://i.scdn.co/image/ab67616d0000b273a5abc583433fea28e98bfa14",
+        "audio_url": "https://example.com/audio/teri_mitti.mp3"
+      },
+      "metadata": {
+        "likes": 160000,
+        "plays": 6100000
+      }
+    }
+  ]
+  

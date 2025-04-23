@@ -1,0 +1,333 @@
+[
+    {
+      "id": 1,
+      "title": "Killer Killer",
+      "duration": 210,
+      "language": "Tamil",
+      "release_date": "2023-10-19",
+      "genre": ["Action", "Thriller"],
+      "album": {
+        "name": "Leo",
+        "release_year": 2023
+      },
+      "movie": {
+        "title": "Leo",
+        "director": "Lokesh Kanagaraj",
+        "producers": ["S. S. Lalit Kumar", "Jagadish Palanisamy"]
+      },
+      "artists": {
+        "singers": ["Anirudh Ravichander"],
+        "music_directors": ["Anirudh Ravichander"],
+        "lyricists": ["Heisenberg"]
+      },
+      "media": {
+        "cover_image_url": "https://i.scdn.co/image/ab67616d0000b27386989cbed63d912e8c1355bb",
+        "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/uu2tpnth4luesgsl7mbs.mp3"
+      },
+      "metadata": {
+        "likes": 98000,
+        "plays": 1200000
+      }
+    },
+    {
+      "id": 2,
+      "title": "Yamma Yamma",
+      "duration": 262,
+      "language": "Tamil",
+      "release_date": "2010-10-28",
+      "genre": ["Romantic", "Melody"],
+      "album": {
+        "name": "7aum Arivu",
+        "release_year": 2011
+      },
+      "movie": {
+        "title": "7aum Arivu",
+        "director": "A. R. Murugadoss",
+        "producers": ["Udhayanidhi Stalin"]
+      },
+      "artists": {
+        "singers": ["SP Balasubrahmanyam"],
+        "music_directors": ["Harris Jayaraj"],
+        "lyricists": ["Na. Muthukumar"]
+      },
+      "media": {
+        "cover_image_url": "https://c-cdnet.cdn.smule.com/rs-s92/arr/27/43/2ab0962b-3993-470f-a7e2-dede3ccbb2e8.jpg",
+        "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743444672/hhvobedleqfrmcgwqr3i.mp3"
+      },
+      "metadata": {
+        "likes": 150000,
+        "plays": 4200000
+      }
+    },
+    {
+      "id": 3,
+      "title": "Ordinary Person",
+      "duration": 194,
+      "language": "Tamil",
+      "release_date": "2023-09-30",
+      "genre": ["Pop", "Motivational"],
+      "album": {
+        "name": "Leo",
+        "release_year": 2023
+      },
+      "movie": {
+        "title": "Leo",
+        "director": "Lokesh Kanagaraj",
+        "producers": ["S. S. Lalit Kumar", "Jagadish Palanisamy"]
+      },
+      "artists": {
+        "singers": ["Nikhita Gandhi"],
+        "music_directors": ["Anirudh Ravichander"],
+        "lyricists": ["Heisenberg"]
+      },
+      "media": {
+        "cover_image_url": "https://c.saavncdn.com/916/Ordinary-Person-From-Leo-Tamil-2023-20231023221744-500x500.jpg",
+        "audio_url": "https://example.com/audio/ordinary_person.mp3"
+      },
+      "metadata": {
+        "likes": 125000,
+        "plays": 2100000
+      }
+    },
+    {
+      "id": 4,
+      "title": "Hukum",
+      "duration": 235,
+      "language": "Tamil",
+      "release_date": "2023-07-26",
+      "genre": ["Mass", "Action"],
+      "album": {
+        "name": "Jailer",
+        "release_year": 2023
+      },
+      "movie": {
+        "title": "Jailer",
+        "director": "Nelson Dilipkumar",
+        "producers": ["Kalanithi Maran"]
+      },
+      "artists": {
+        "singers": ["Anirudh Ravichander"],
+        "music_directors": ["Anirudh Ravichander"],
+        "lyricists": ["Super Subu"]
+      },
+      "media": {
+        "cover_image_url": "https://pbs.twimg.com/media/F2Qs1K-WUAAbhzS.jpg:large",
+        "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743444520/it8oag3y1mx0xjakezn5.mp3"
+      },
+      "metadata": {
+        "likes": 175000,
+        "plays": 3000000
+      }
+    },
+    {
+      "id": 5,
+      "title": "Arabic Kuthu",
+      "duration": 215,
+      "language": "Tamil",
+      "release_date": "2022-02-14",
+      "genre": ["Dance", "Folk"],
+      "album": {
+        "name": "Beast",
+        "release_year": 2022
+      },
+      "movie": {
+        "title": "Beast",
+        "director": "Nelson Dilipkumar",
+        "producers": ["Kalanithi Maran"]
+      },
+      "artists": {
+        "singers": ["Anirudh Ravichander", "Jonita Gandhi"],
+        "music_directors": ["Anirudh Ravichander"],
+        "lyricists": ["Sivakarthikeyan"]
+      },
+      "media": {
+        "cover_image_url": "https://pbs.twimg.com/media/FLkNdRBacAMkSOl.jpg",
+        "audio_url": "https://example.com/audio/arabic_kuthu.mp3"
+      },
+      "metadata": {
+        "likes": 250000,
+        "plays": 6000000
+      }
+    },
+    {
+      "id": 6,
+      "title": "Vaathi",
+      "duration": 240,
+      "language": "Tamil",
+      "release_date": "2023-02-17",
+      "genre": ["Folk", "Mass"],
+      "album": {
+        "name": "Vaathi",
+        "release_year": 2023
+      },
+      "movie": {
+        "title": "Vaathi",
+        "director": "Venky Atluri",
+        "producers": ["Suryadevara Naga Vamsi"]
+      },
+      "artists": {
+        "singers": ["Anirudh Ravichander"],
+        "music_directors": ["G. V. Prakash Kumar"],
+        "lyricists": ["Vivek"]
+      },
+      "media": {
+        "cover_image_url": "https://example.com/images/vaathi.jpg",
+        "audio_url": "https://example.com/audio/vaathi.mp3"
+      },
+      "metadata": {
+        "likes": 180000,
+        "plays": 3500000
+      }
+    },
+    {
+      "id": 11,
+      "title": "Vera Level Sago",
+      "duration": 200,
+      "language": "Tamil",
+      "release_date": "2021-08-06",
+      "genre": ["Motivational", "Folk"],
+      "album": {
+        "name": "Ayalaan",
+        "release_year": 2024
+      },
+      "movie": {
+        "title": "Ayalaan",
+        "director": "R. Ravikumar",
+        "producers": ["R. D. Raja"]
+      },
+      "artists": {
+        "singers": ["Sivakarthikeyan"],
+        "music_directors": ["A. R. Rahman"],
+        "lyricists": ["Sivakarthikeyan"]
+      },
+      "media": {
+        "cover_image_url": "https://example.com/images/vera_level.jpg",
+        "audio_url": "https://example.com/audio/vera_level.mp3"
+      },
+      "metadata": {
+        "likes": 130000,
+        "plays": 2300000
+      }
+    },
+    {
+      "id": 12,
+      "title": "Naa Ready",
+      "duration": 220,
+      "language": "Tamil",
+      "release_date": "2023-06-22",
+      "genre": ["Mass", "Action"],
+      "album": {
+        "name": "Leo",
+        "release_year": 2023
+      },
+      "movie": {
+        "title": "Leo",
+        "director": "Lokesh Kanagaraj",
+        "producers": ["S. S. Lalit Kumar"]
+      },
+      "artists": {
+        "singers": ["Vijay", "Asal Kolaar"],
+        "music_directors": ["Anirudh Ravichander"],
+        "lyricists": ["Vivek"]
+      },
+      "media": {
+        "cover_image_url": "https://example.com/images/naa_ready.jpg",
+        "audio_url": "https://example.com/audio/naa_ready.mp3"
+      },
+      "metadata": {
+        "likes": 200000,
+        "plays": 4500000
+      }
+    },
+    {
+      "id": 13,
+      "title": "Tum Hi Ho",
+      "duration": 245,
+      "language": "Hindi",
+      "release_date": "2013-04-08",
+      "genre": ["Romantic", "Drama"],
+      "album": {
+        "name": "Aashiqui 2",
+        "release_year": 2013
+      },
+      "movie": {
+        "title": "Aashiqui 2",
+        "director": "Mohit Suri",
+        "producers": ["Mahesh Bhatt", "Mukesh Bhatt"]
+      },
+      "artists": {
+        "singers": ["Arijit Singh"],
+        "music_directors": ["Mithoon"],
+        "lyricists": ["Mithoon"]
+      },
+      "media": {
+        "cover_image_url": "https://example.com/images/tum_hi_ho.jpg",
+        "audio_url": "https://example.com/audio/tum_hi_ho.mp3"
+      },
+      "metadata": {
+        "likes": 120000,
+        "plays": 5000000
+      }
+    },
+    {
+      "id": 14,
+      "title": "Vaathi Coming",
+      "duration": 218,
+      "language": "Tamil",
+      "release_date": "2020-03-10",
+      "genre": ["Folk", "Mass"],
+      "album": {
+        "name": "Master",
+        "release_year": 2021
+      },
+      "movie": {
+        "title": "Master",
+        "director": "Lokesh Kanagaraj",
+        "producers": ["Xavier Britto"]
+      },
+      "artists": {
+        "singers": ["Anirudh Ravichander", "Gana Balachandar"],
+        "music_directors": ["Anirudh Ravichander"],
+        "lyricists": ["Gana Balachandar"]
+      },
+      "media": {
+        "cover_image_url": "https://example.com/images/vaathi_coming.jpg",
+        "audio_url": "https://example.com/audio/vaathi_coming.mp3"
+      },
+      "metadata": {
+        "likes": 190000,
+        "plays": 3700000
+      }
+    },
+    {
+      "id": 15,
+      "title": "Rowdy Baby",
+      "duration": 240,
+      "language": "Tamil",
+      "release_date": "2018-11-28",
+      "genre": ["Dance", "Romantic"],
+      "album": {
+        "name": "Maari 2",
+        "release_year": 2018
+      },
+      "movie": {
+        "title": "Maari 2",
+        "director": "Balaji Mohan",
+        "producers": ["Dhanush"]
+      },
+      "artists": {
+        "singers": ["Dhanush", "Dhee"],
+        "music_directors": ["Yuvan Shankar Raja"],
+        "lyricists": ["Poetu Dhanush"]
+      },
+      "media": {
+        "cover_image_url": "https://example.com/images/rowdy_baby.jpg",
+        "audio_url": "https://example.com/audio/rowdy_baby.mp3"
+      },
+      "metadata": {
+        "likes": 300000,
+        "plays": 8000000
+      }
+    }
+  ]
+  

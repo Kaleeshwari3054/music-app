@@ -1,0 +1,127 @@
+.auth-container {
+    background: url("https://thumbs.dreamstime.com/b/music-19610285.jpg")
+      no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .auth-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px #1db954;
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #1db954;
+    margin: 8px auto 0;
+    border-radius: 2px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1.5px solid #1db954;
+    box-shadow: 0px 0px 5px #1db954;
+  }
+  
+  button {
+    background: #1db954;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: rgb(0, 213, 255);
+    color: black;
+    transform: scale(1.05);
+  }
+  .my-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    width: 350px;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+  }
+  
+  .my-button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    margin-top: 1rem;
+    color: black;
+  }
+  
+  a {
+    color: #1db954;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: #ff4747;
+    font-size: 14px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

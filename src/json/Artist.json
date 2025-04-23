@@ -1,0 +1,53 @@
+[
+    {
+    "id": 1,
+    "title": "Yuvan Shankar Raja Mix",
+    "artists": {
+      "music_directors": ["Yuvan Shankar Raja"]
+    },
+    "media": {
+      "cover_image_url": "https://i.pinimg.com/originals/e9/7e/31/e97e317a75ab3eedcc1603fbe6d5eaf4.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Veera Soora",
+    "artists": {
+      "music_directors": ["G.V. Prakash Kumar"]
+    },
+    "media": {
+      "cover_image_url": "https://i.pinimg.com/736x/f0/a6/f7/f0a6f72b9e638a652aec92c6f39d6b83.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Vallavan",
+    "artists": {
+      "music_directors": ["A.R. Rahman"]
+    },
+    "media": {
+      "cover_image_url": "https://i.pinimg.com/736x/8a/33/7e/8a337e8142145d98801ea4a5700d60fb.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Yuvan Shankar Raja Mix",
+    "artists": {
+      "music_directors": ["Harris Jayaraj"]
+    },
+    "media": {
+      "cover_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/1626238486180405249/pu/img/C_kcDlzR4tFBJC1N?format=jpg&name=large"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Veera Soora",
+    "artists": {
+      "music_directors": ["Anirudh Ravichander"]
+    },
+    "media": {
+      "cover_image_url": "https://preview.redd.it/the-downfall-of-anirudh-v0-nvifdqri8zpd1.jpeg?width=1080&crop=smart&auto=webp&s=82b32c32c19a684eb429bd86189e81bf630349ea"
+    }
+  }
+  
+]

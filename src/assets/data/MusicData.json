@@ -1,0 +1,261 @@
+[
+    {
+        "id": 1,
+      "musicDirector": "G. V. Prakash Kumar",
+      "movie": "Captain Miller",
+      "songimage": "https://i.scdn.co/image/ab67616d0000b27386989cbed63d912e8c1355bb",
+      "songTitle": "Killer Killer",
+      "songUrl": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/uu2tpnth4luesgsl7mbs.mp3"
+    },
+    {
+        "id": 2,
+      "musicDirector": "R. D. Burman ",
+      "movie": "7 am arivu",
+      "songimage": "https://c-cdnet.cdn.smule.com/rs-s92/arr/27/43/2ab0962b-3993-470f-a7e2-dede3ccbb2e8.jpg",
+      "songTitle": "Yamma Yamma",
+      "songUrl":"https://res.cloudinary.com/dcuto7css/video/upload/v1743444672/hhvobedleqfrmcgwqr3i.mp3"
+    },
+    {
+        "id": 3,
+      "musicDirector": "Anirudh Ravichande",
+      "movie": "Leo",
+      "songimage": "https://c.saavncdn.com/916/Ordinary-Person-From-Leo-Tamil-2023-20231023221744-500x500.jpg",
+      "songTitle": "Ordinary Person"
+    },
+    {
+        "id": 4,
+      "musicDirector": "Anirudh Ravichander",
+      "actor": "Dhanush",
+      "movie": "Jailer",
+      "songimage": "https://pbs.twimg.com/media/F2Qs1K-WUAAbhzS.jpg:large",
+      "songTitle": "Hukum",
+      "songUrl":"https://res.cloudinary.com/dcuto7css/video/upload/v1743444520/it8oag3y1mx0xjakezn5.mp3"
+    },
+    {
+        "id": 5,
+      "musicDirector": "Yuvan Shankar Raja",
+      "actor": "Dhanush",
+      "movie": "Velaiilla Pattadhari",
+      "songimage": "https://c.saavncdn.com/480/Chekuthan-Reprise-Malayalam-2021-20220506190318-500x500.jpg",
+      "songTitle": "Yuvan Shankar Raja Mix"
+    },
+    {
+      "id": 6,
+      "musicDirector": "Yuvan Shankar Raja",
+      "actor": "Dhanush",
+      "movie": "Velaiilla Pattadhari",
+      "image": "https://i.pinimg.com/originals/e9/7e/31/e97e317a75ab3eedcc1603fbe6d5eaf4.jpg",
+      "songTitle": "Yuvan Shankar Raja Mix",
+      "artist":"Artist"
+    },
+    {
+      "id": 7,
+      "musicDirector": "G.V. Prakash Kumar",
+      "actor": "Vikram",
+      "movie": "Deiva Thirumagal",
+      "image": "https://i.pinimg.com/736x/f0/a6/f7/f0a6f72b9e638a652aec92c6f39d6b83.jpg",
+      "songTitle": "Veera Soora",
+      "artist":"Artist"
+    },
+    {
+      "id": 8,
+      "musicDirector": "A.R. Rahman",
+      "actor": "Rajinikanth",
+      "movie": "Sivaji: The Boss",
+      "image": "https://i.pinimg.com/736x/8a/33/7e/8a337e8142145d98801ea4a5700d60fb.jpg",
+      "songTitle": "Vallavan",
+      "artist":"Artist"
+    },
+    {
+        "id": 9,
+        "musicDirector": "Harris Jayaraj",
+        "actor": "Dhanush",
+        "movie": "Velaiilla Pattadhari",
+        "image": "https://pbs.twimg.com/ext_tw_video_thumb/1626238486180405249/pu/img/C_kcDlzR4tFBJC1N?format=jpg&name=large",
+        "songTitle": "Yuvan Shankar Raja Mix",
+      "artist":"Artist"
+      },
+      {
+        "id": 10,
+        "musicDirector": "Anirudh Ravichander",
+        "actor": "Vikram",
+        "movie": "Deiva Thirumagal",
+        "image": "https://preview.redd.it/the-downfall-of-anirudh-v0-nvifdqri8zpd1.jpeg?width=1080&crop=smart&auto=webp&s=82b32c32c19a684eb429bd86189e81bf630349ea",
+        "songTitle": "Veera Soora",
+      "artist":"Artist"
+      },
+      {
+        "id": 11,
+        "musicDirector": "Vijay Antony",
+        "actor": "Rajinikanth",
+        "movie": "Sivaji: The Boss",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_UMJX_p6Aweyyj1IjFp5lLG25gwA0yfaJ-7_Vr7zk5rpX__JcBrUz5mT8UK2P_t7aWrq3FZW0QYPm8QzJxGWzdA",
+        "songTitle": "Vallavan",
+      "artist":"Artist"
+      },
+      {
+        "id": 12,
+        "musicDirector": "Illaiya raja",
+        "actor": "Dhanush",
+        "movie": "Velaiilla Pattadhari",
+        "image": "https://imagecdn.raaga.com/raagaimg/r_img/catalog/md/%7B6451fb21-6d03-479d-a912-bb612928141b%7D.jpg",
+        "songTitle": "Yuvan Shankar Raja Mix",
+      "artist":"Artist"
+      },
+      {
+        "id": 13,
+        "musicDirector": "G.V. Prakash Kumar",
+        "actor": "Vikram",
+        "movie": "Deiva Thirumagal",
+        "image": "https://i.pinimg.com/736x/c3/ab/bf/c3abbf6f909749109471d46744ae0d02.jpg",
+        "songTitle": "Veera Soora",
+      "artist":"Artist"
+      },
+      {
+        "id": 14,
+        "musicDirector": "A.R. Rahman",
+        "actor": "Rajinikanth",
+        "movie": "Sivaji: The Boss",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Dhanush_at_the_%E2%80%98Asuran%E2%80%99_Success_Meet.jpg",
+        "songTitle": "Vallavan",
+      "artist":"Artist"
+      },
+      {
+        "id": 15,
+        "musicDirector": "Yuvan Shankar Raja",
+        "actor": "Dhanush",
+        "movie": "Velaiilla Pattadhari",
+        "image": "https://images.indianexpress.com/2024/10/Happy-Birthday-Anirudh-Ravichander.jpg",
+        "songTitle": "Yuvan Shankar Raja Mix",
+      "artist":"Artist"
+      },
+      {
+        "id": 16,
+        "musicDirector": "G.V. Prakash Kumar",
+        "actor": "Vikram",
+        "movie": "Deiva Thirumagal",
+        "image": "https://preview.redd.it/sk-sai-pallavis-pairing-is-perfection-their-chemistry-is-v0-iqa060ggbrsd1.jpeg?width=1639&format=pjpg&auto=webp&s=6f02df41c9892ad8c622ef5e9e72d239aecfed48",
+        "songTitle": "Veera Soora",
+      "artist":"Artist"
+      },
+      {
+        "id": 17,
+        "musicDirector": "A.R. Rahman",
+        "actor": "Rajinikanth",
+        "movie": "Sivaji: The Boss",
+        "image": "https://pbs.twimg.com/ext_tw_video_thumb/1626238486180405249/pu/img/C_kcDlzR4tFBJC1N?format=jpg&name=large ",
+        "songTitle": "Vallavan",
+      "artist":"Artist"
+      },
+      {
+        "id": 18,
+        "musicDirector": "Yuvan Shankar Raja",
+        "actor": "Dhanush",
+        "movie": "Velaiilla Pattadhari",
+        "image": "https://i.pinimg.com/originals/e9/7e/31/e97e317a75ab3eedcc1603fbe6d5eaf4.jpg",
+        "songTitle": "Yuvan Shankar Raja Mix",
+        "artist":"Artist"
+      },
+      {
+        "id": 19,
+        "musicDirector": "G.V. Prakash Kumar",
+        "actor": "Vikram",
+        "movie": "Deiva Thirumagal",
+        "image": "https://i.pinimg.com/736x/f0/a6/f7/f0a6f72b9e638a652aec92c6f39d6b83.jpg",
+        "songTitle": "Veera Soora",
+        "artist":"Artist"
+      },
+      {
+        "id": 20,
+        "musicDirector": "A.R. Rahman",
+        "actor": "Rajinikanth",
+        "movie": "Sivaji: The Boss",
+        "image": "https://i.pinimg.com/736x/8a/33/7e/8a337e8142145d98801ea4a5700d60fb.jpg",
+        "songTitle": "Vallavan",
+        "artist":"Artist"
+      },
+      {
+          "id": 21,
+          "musicDirector": "......",
+          "actor": "Dhanush",
+          "movie": "Velaiilla Pattadhari",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Devi_sri_prasad.jpg",
+          "songTitle": "Yuvan Shankar Raja Mix",
+        "artist":"Artist"
+        },
+        {
+          "id": 22,
+          "musicDirector": "Mani sharma",
+          "actor": "Vikram",
+          "movie": "Deiva Thirumagal",
+          "image": "https://i.pinimg.com/736x/69/19/10/69191072760f7de5ea0222f9683b70dd.jpg",
+          "songTitle": "Veera Soora",
+        "artist":"Artist"
+        },
+        {
+          "id": 23,
+          "musicDirector": "Vijay Antony",
+          "actor": "Rajinikanth",
+          "movie": "Sivaji: The Boss",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_UMJX_p6Aweyyj1IjFp5lLG25gwA0yfaJ-7_Vr7zk5rpX__JcBrUz5mT8UK2P_t7aWrq3FZW0QYPm8QzJxGWzdA",
+          "songTitle": "Vallavan",
+        "artist":"Artist"
+        },
+        {
+          "id": 24,
+          "musicDirector": "Illaiya raja",
+          "actor": "Dhanush",
+          "movie": "Velaiilla Pattadhari",
+          "image": "https://imagecdn.raaga.com/raagaimg/r_img/catalog/md/%7B6451fb21-6d03-479d-a912-bb612928141b%7D.jpg",
+          "songTitle": "Yuvan Shankar Raja Mix",
+        "artist":"Artist"
+        },
+        {
+          "id": 25,
+          "musicDirector": "G.V. Prakash Kumar",
+          "actor": "Vikram",
+          "movie": "Deiva Thirumagal",
+          "image": "https://i.pinimg.com/736x/c3/ab/bf/c3abbf6f909749109471d46744ae0d02.jpg",
+          "songTitle": "Veera Soora",
+        "artist":"Artist"
+        },
+        {
+          "id": 26,
+          "musicDirector": "A.R. Rahman",
+          "actor": "Rajinikanth",
+          "movie": "Sivaji: The Boss",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Dhanush_at_the_%E2%80%98Asuran%E2%80%99_Success_Meet.jpg",
+          "songTitle": "Vallavan",
+        "artist":"Artist"
+        },
+        {
+          "id": 27,
+          "musicDirector": "Yuvan Shankar Raja",
+          "actor": "Dhanush",
+          "movie": "Velaiilla Pattadhari",
+          "image": "https://images.indianexpress.com/2024/10/Happy-Birthday-Anirudh-Ravichander.jpg",
+          "songTitle": "Yuvan Shankar Raja Mix",
+        "artist":"Artist"
+        },
+        {
+          "id": 28,
+          "musicDirector": "G.V. Prakash Kumar",
+          "musicDirectorImage":"https://wallpapers.com/images/featured/yuvan-shankar-raja-op9rxxeu7i4z38jz.jpg",
+          "actor": "Vikram",
+          "movie": "Deiva Thirumagal",
+          "image": "https://preview.redd.it/sk-sai-pallavis-pairing-is-perfection-their-chemistry-is-v0-iqa060ggbrsd1.jpeg?width=1639&format=pjpg&auto=webp&s=6f02df41c9892ad8c622ef5e9e72d239aecfed48",
+          "songTitle": "Veera Soora",
+        "artist":"Artist"
+        },
+        {
+          
+          "id": 29,
+          "musicDirector": "A.R. Rahman",
+          "actor": "Rajinikanth",
+          "movie": "Sivaji: The Boss",
+          "image": "https://pbs.twimg.com/ext_tw_video_thumb/1626238486180405249/pu/img/C_kcDlzR4tFBJC1N?format=jpg&name=large ",
+          "songTitle": "Vallavan",
+        "artist":"Artist"
+        }
+  ]
+  

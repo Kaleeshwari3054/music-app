@@ -1,0 +1,294 @@
+{
+    "songs": [
+      {
+        "id": "song001",
+        "title": "Ordinary Person",
+        "duration": 272,
+        "language": "Tamil",
+        "release_date": "2023-10-19",
+        "genre": ["Action", "Drama"],
+        "album": {
+          "name": "Leo",
+          "release_year": 2023
+        },
+        "movie": {
+          "title": "Leo",
+          "director": "Lokesh Kanagaraj",
+          "producers": ["Seven Screen Studio"]
+        },
+        "artists": {
+          "singers": ["Anirudh Ravichander", "Thalapathy Vijay"],
+          "music_directors": ["Anirudh Ravichander"],
+          "lyricists": ["Vishnu Edavan"]
+        },
+        "media": {
+          "cover_image_url": "https://c.saavncdn.com/916/Ordinary-Person-From-Leo-Tamil-2023-20231023221744-500x500.jpg",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/ordinary-person_xjxgxs.mp3"
+        },
+        "metadata": {
+          "likes": 250000,
+          "plays": 1000000
+        }
+      },
+      {
+        "id": "song002",
+        "title": "Hukum",
+        "duration": 225,
+        "language": "Tamil",
+        "release_date": "2023-07-06",
+        "genre": ["Action", "Mass"],
+        "album": {
+          "name": "Jailer",
+          "release_year": 2023
+        },
+        "movie": {
+          "title": "Jailer",
+          "director": "Nelson Dilipkumar",
+          "producers": ["Sun Pictures"]
+        },
+        "artists": {
+          "singers": ["Anirudh Ravichander", "Rajinikanth"],
+          "music_directors": ["Anirudh Ravichander"],
+          "lyricists": ["Arunraja Kamaraj"]
+        },
+        "media": {
+          "cover_image_url": "https://pbs.twimg.com/media/F2Qs1K-WUAAbhzS.jpg:large",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743444520/it8oag3y1mx0xjakezn5.mp3"
+        },
+        "metadata": {
+          "likes": 500000,
+          "plays": 2000000
+        }
+      },
+      {
+        "id": "song003",
+        "title": "Why This Kolaveri Di",
+        "duration": 260,
+        "language": "Tamil",
+        "release_date": "2011-11-16",
+        "genre": ["Folk", "Experimental"],
+        "album": {
+          "name": "3",
+          "release_year": 2012
+        },
+        "movie": {
+          "title": "3",
+          "director": "Aishwarya R. Dhanush",
+          "producers": ["Dhanush"]
+        },
+        "artists": {
+          "singers": ["Dhanush"],
+          "music_directors": ["Anirudh Ravichander"],
+          "lyricists": ["Dhanush"]
+        },
+        "media": {
+          "cover_image_url": "https://upload.wikimedia.org/wikipedia/en/d/db/Whu_this_kolaveri_di.JPG",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/why-this-kolaveri_cjxgxs.mp3"
+        },
+        "metadata": {
+          "likes": 150000,
+          "plays": 7000000
+        }
+      },
+      {
+        "id": "song004",
+        "title": "Vaathi Coming",
+        "duration": 230,
+        "language": "Tamil",
+        "release_date": "2020-03-10",
+        "genre": ["Folk", "Dance"],
+        "album": {
+          "name": "Master",
+          "release_year": 2021
+        },
+        "movie": {
+          "title": "Master",
+          "director": "Lokesh Kanagaraj",
+          "producers": ["Xavier Britto"]
+        },
+        "artists": {
+          "singers": ["Anirudh Ravichander", "Gana Balachandar"],
+          "music_directors": ["Anirudh Ravichander"],
+          "lyricists": ["Gana Balachandar"]
+        },
+        "media": {
+          "cover_image_url": "https://c.saavncdn.com/896/Master-Tamil-2020-20210520182822-500x500.jpg",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/vaathi-coming_2jxgxs.mp3"
+        },
+        "metadata": {
+          "likes": 130000,
+          "plays": 6000000
+        }
+      },
+      {
+        "id": "song005",
+        "title": "Tum Hi Ho",
+        "duration": 245,
+        "language": "Hindi",
+        "release_date": "2013-04-08",
+        "genre": ["Romantic", "Drama"],
+        "album": {
+          "name": "Aashiqui 2",
+          "release_year": 2013
+        },
+        "movie": {
+          "title": "Aashiqui 2",
+          "director": "Mohit Suri",
+          "producers": ["Mahesh Bhatt", "Mukesh Bhatt"]
+        },
+        "artists": {
+          "singers": ["Arijit Singh"],
+          "music_directors": ["Mithoon"],
+          "lyricists": ["Mithoon"]
+        },
+        "media": {
+          "cover_image_url": "https://upload.wikimedia.org/wikipedia/en/f/ff/Tum_Hi_Ho_cover.jpeg",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/tum-hi-ho_3jxgxs.mp3"
+        },
+        "metadata": {
+          "likes": 120000,
+          "plays": 5000000
+        }
+      },
+      {
+        "id": "song006",
+        "title": "Kesariya",
+        "duration": 210,
+        "language": "Hindi",
+        "release_date": "2022-07-15",
+        "genre": ["Romantic"],
+        "album": {
+          "name": "Brahmastra",
+          "release_year": 2022
+        },
+        "movie": {
+          "title": "Brahmastra",
+          "director": "Ayan Mukerji",
+          "producers": ["Karan Johar"]
+        },
+        "artists": {
+          "singers": ["Arijit Singh"],
+          "music_directors": ["Pritam"],
+          "lyricists": ["Amitabh Bhattacharya"]
+        },
+        "media": {
+          "cover_image_url": "https://i.scdn.co/image/ab67616d0000b273c08202c50371e234d20caf62",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/kesariya_4jxgxs.mp3"
+        },
+        "metadata": {
+          "likes": 95000,
+          "plays": 4200000
+        }
+      },
+      {
+        "id": "song007",
+        "title": "Perfect",
+        "duration": 263,
+        "language": "English",
+        "release_date": "2017-11-24",
+        "genre": ["Pop", "Romance"],
+        "album": {
+          "name": "÷ (Divide)",
+          "release_year": 2017
+        },
+        "artists": {
+          "singers": ["Ed Sheeran"],
+          "music_directors": ["Ed Sheeran"],
+          "lyricists": ["Ed Sheeran"]
+        },
+        "media": {
+          "cover_image_url": "https://upload.wikimedia.org/wikipedia/en/8/80/Ed_Sheeran_Perfect_Single_cover.jpg",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/perfect_5jxgxs.mp3"
+        },
+        "metadata": {
+          "likes": 180000,
+          "plays": 8000000
+        }
+      },
+      {
+        "id": "song008",
+        "title": "Blinding Lights",
+        "duration": 200,
+        "language": "English",
+        "release_date": "2019-11-29",
+        "genre": ["Synth-pop", "New Wave"],
+        "album": {
+          "name": "After Hours",
+          "release_year": 2020
+        },
+        "artists": {
+          "singers": ["The Weeknd"],
+          "music_directors": ["The Weeknd", "Max Martin"],
+          "lyricists": ["The Weeknd"]
+        },
+        "media": {
+          "cover_image_url": "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/blinding-lights_6jxgxs.mp3"
+        },
+        "metadata": {
+          "likes": 250000,
+          "plays": 10000000
+        }
+      },
+      {
+        "id": "song009",
+        "title": "Pathala Pathala",
+        "duration": 265,
+        "language": "Tamil",
+        "release_date": "2022-05-15",
+        "genre": ["Folk", "Mass"],
+        "album": {
+          "name": "Vikram",
+          "release_year": 2022
+        },
+        "movie": {
+          "title": "Vikram",
+          "director": "Lokesh Kanagaraj",
+          "producers": ["Raaj Kamal Films International"]
+        },
+        "artists": {
+          "singers": ["Kamal Haasan"],
+          "music_directors": ["Anirudh Ravichander"],
+          "lyricists": ["Vishnu Edavan"]
+        },
+        "media": {
+          "cover_image_url": "https://c.saavncdn.com/199/Vikram-Tamil-2022-20220515182605-500x500.jpg",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/pathala-pathala_1jxgxs.mp3"
+        },
+        "metadata": {
+          "likes": 140000,
+          "plays": 5500000
+        }
+      },
+      {
+        "id": "song010",
+        "title": "Adchithooku",
+        "duration": 270,
+        "language": "Tamil",
+        "release_date": "2019-01-10",
+        "genre": ["Folk", "Dance"],
+        "album": {
+          "name": "Viswasam",
+          "release_year": 2019
+        },
+        "movie": {
+          "title": "Viswasam",
+          "director": "Siva",
+          "producers": ["Sathya Jyothi Films"]
+        },
+        "artists": {
+          "singers": ["D. Imman", "Aditya Gadhvi"],
+          "music_directors": ["D. Imman"],
+          "lyricists": ["Viveka"]
+        },
+        "media": {
+          "cover_image_url": "https://c.saavncdn.com/807/Viswasam-Tamil-2018-20190309-500x500.jpg",
+          "audio_url": "https://res.cloudinary.com/dcuto7css/video/upload/v1743267846/adchithooku_vjxgxs.mp3"
+        },
+        "metadata": {
+          "likes": 110000,
+          "plays": 4800000
+        }
+      }
+    ]
+  }
