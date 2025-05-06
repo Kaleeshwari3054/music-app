@@ -1,0 +1,66 @@
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+}
+.menu-button {
+  background-color: transparent;
+  color: #1db954;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10xp;
+  transition: color 0.3s ease;
+}
+
+.menu-button:hover {
+  color: #169c47;
+}
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  /* z-index: 1000; */
+  animation: dropdownFade 0.3s ease;
+}
+.dropdown-item {
+  color: #1db954;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  background-color: #e9f7ee;
+  border-radius: 10px;
+}
+.search-container {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  .logo_my-app {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    background-color: transparent;
+    color: #e9f7ee;
+  }
+  

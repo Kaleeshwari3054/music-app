@@ -36,11 +36,11 @@
       "musicDirector": "Yuvan Shankar Raja",
       "actor": "Dhanush",
       "movie": "Velaiilla Pattadhari",
-      "songimage": "https://c.saavncdn.com/480/Chekuthan-Reprise-Malayalam-2021-20220506190318-500x500.jpg",
+      "songimage": "https://pbs.twimg.com/media/FLkNdRBacAMkSOl.jpg",
       "songTitle": "Yuvan Shankar Raja Mix"
     },
     {
-      "id": 6,
+      "id": 1,
       "musicDirector": "Yuvan Shankar Raja",
       "actor": "Dhanush",
       "movie": "Velaiilla Pattadhari",
@@ -49,7 +49,7 @@
       "artist":"Artist"
     },
     {
-      "id": 7,
+      "id": 2,
       "musicDirector": "G.V. Prakash Kumar",
       "actor": "Vikram",
       "movie": "Deiva Thirumagal",
@@ -58,7 +58,7 @@
       "artist":"Artist"
     },
     {
-      "id": 8,
+      "id": 3,
       "musicDirector": "A.R. Rahman",
       "actor": "Rajinikanth",
       "movie": "Sivaji: The Boss",
@@ -67,7 +67,7 @@
       "artist":"Artist"
     },
     {
-        "id": 9,
+        "id": 4,
         "musicDirector": "Harris Jayaraj",
         "actor": "Dhanush",
         "movie": "Velaiilla Pattadhari",
@@ -76,7 +76,7 @@
       "artist":"Artist"
       },
       {
-        "id": 10,
+        "id": 5,
         "musicDirector": "Anirudh Ravichander",
         "actor": "Vikram",
         "movie": "Deiva Thirumagal",
@@ -85,7 +85,7 @@
       "artist":"Artist"
       },
       {
-        "id": 11,
+        "id": 6,
         "musicDirector": "Vijay Antony",
         "actor": "Rajinikanth",
         "movie": "Sivaji: The Boss",
@@ -94,7 +94,7 @@
       "artist":"Artist"
       },
       {
-        "id": 12,
+        "id": 7,
         "musicDirector": "Illaiya raja",
         "actor": "Dhanush",
         "movie": "Velaiilla Pattadhari",
@@ -103,7 +103,7 @@
       "artist":"Artist"
       },
       {
-        "id": 13,
+        "id": 8,
         "musicDirector": "G.V. Prakash Kumar",
         "actor": "Vikram",
         "movie": "Deiva Thirumagal",
@@ -112,7 +112,7 @@
       "artist":"Artist"
       },
       {
-        "id": 14,
+        "id": 9,
         "musicDirector": "A.R. Rahman",
         "actor": "Rajinikanth",
         "movie": "Sivaji: The Boss",
@@ -121,7 +121,7 @@
       "artist":"Artist"
       },
       {
-        "id": 15,
+        "id": 10,
         "musicDirector": "Yuvan Shankar Raja",
         "actor": "Dhanush",
         "movie": "Velaiilla Pattadhari",
@@ -130,7 +130,7 @@
       "artist":"Artist"
       },
       {
-        "id": 16,
+        "id": 11,
         "musicDirector": "G.V. Prakash Kumar",
         "actor": "Vikram",
         "movie": "Deiva Thirumagal",
@@ -139,7 +139,7 @@
       "artist":"Artist"
       },
       {
-        "id": 17,
+        "id": 12,
         "musicDirector": "A.R. Rahman",
         "actor": "Rajinikanth",
         "movie": "Sivaji: The Boss",
@@ -148,7 +148,7 @@
       "artist":"Artist"
       },
       {
-        "id": 18,
+        "id": 1,
         "musicDirector": "Yuvan Shankar Raja",
         "actor": "Dhanush",
         "movie": "Velaiilla Pattadhari",
@@ -157,7 +157,7 @@
         "artist":"Artist"
       },
       {
-        "id": 19,
+        "id": 2,
         "musicDirector": "G.V. Prakash Kumar",
         "actor": "Vikram",
         "movie": "Deiva Thirumagal",
@@ -166,7 +166,7 @@
         "artist":"Artist"
       },
       {
-        "id": 20,
+        "id": 3,
         "musicDirector": "A.R. Rahman",
         "actor": "Rajinikanth",
         "movie": "Sivaji: The Boss",
@@ -175,7 +175,7 @@
         "artist":"Artist"
       },
       {
-          "id": 21,
+          "id": 4,
           "musicDirector": "......",
           "actor": "Dhanush",
           "movie": "Velaiilla Pattadhari",
@@ -184,7 +184,7 @@
         "artist":"Artist"
         },
         {
-          "id": 22,
+          "id": 5,
           "musicDirector": "Mani sharma",
           "actor": "Vikram",
           "movie": "Deiva Thirumagal",
@@ -193,7 +193,7 @@
         "artist":"Artist"
         },
         {
-          "id": 23,
+          "id": 6,
           "musicDirector": "Vijay Antony",
           "actor": "Rajinikanth",
           "movie": "Sivaji: The Boss",
@@ -202,7 +202,7 @@
         "artist":"Artist"
         },
         {
-          "id": 24,
+          "id": 7,
           "musicDirector": "Illaiya raja",
           "actor": "Dhanush",
           "movie": "Velaiilla Pattadhari",
@@ -211,7 +211,7 @@
         "artist":"Artist"
         },
         {
-          "id": 25,
+          "id": 8,
           "musicDirector": "G.V. Prakash Kumar",
           "actor": "Vikram",
           "movie": "Deiva Thirumagal",
@@ -220,7 +220,7 @@
         "artist":"Artist"
         },
         {
-          "id": 26,
+          "id": 9,
           "musicDirector": "A.R. Rahman",
           "actor": "Rajinikanth",
           "movie": "Sivaji: The Boss",
@@ -229,7 +229,7 @@
         "artist":"Artist"
         },
         {
-          "id": 27,
+          "id": 10,
           "musicDirector": "Yuvan Shankar Raja",
           "actor": "Dhanush",
           "movie": "Velaiilla Pattadhari",
@@ -238,7 +238,7 @@
         "artist":"Artist"
         },
         {
-          "id": 28,
+          "id": 11,
           "musicDirector": "G.V. Prakash Kumar",
           "musicDirectorImage":"https://wallpapers.com/images/featured/yuvan-shankar-raja-op9rxxeu7i4z38jz.jpg",
           "actor": "Vikram",
@@ -248,8 +248,7 @@
         "artist":"Artist"
         },
         {
-          
-          "id": 29,
+          "id": 12,
           "musicDirector": "A.R. Rahman",
           "actor": "Rajinikanth",
           "movie": "Sivaji: The Boss",

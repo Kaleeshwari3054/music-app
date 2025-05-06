@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import RecentDetail from "../json/RecentDetail.json";
-import artistDetails from "../json/Artist.json"; 
-import "../styles/Styles.css"
+import artistDetails from "../json/Artist.json";
+import "../styles/style.css";
+import logo from "../assets/data/Logo.png";
 const HomePage = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredResults, setFilteredResults] = useState([]);
   const { currentUser } = useAuth();
-  const navigate = useNavigate();
   const [showDropdown, setShowDropdown] = useState(false);
-
-
   const allSongs = RecentDetail;
   const artistpage = artistDetails;
   useEffect(() => {
@@ -47,24 +45,10 @@ const HomePage = () => {
     ? filteredResults.slice(0, 5)
     : allSongs.slice(0, 5);
 
-  const popularArtists = allSongs
-    .filter((music) => music.media?.cover_image_url)
-    .slice(0, 5);
-
   return (
     <div>
       <header className="header">
-        {currentUser ? (
-          <Link to="/profile" className="profile-icon">
-            {currentUser.displayName
-              ? currentUser.displayName.charAt(0).toUpperCase()
-              : "U"}
-          </Link>
-        ) : (
-          <Link to="/login">
-            <button className="login-btn">Login</button>
-          </Link>
-        )}
+        <img src={logo} alt="logo" className="logo_my-app" />
 
         {/* ☰ Dropdown Menu */}
         <div className="menu-container">
@@ -100,6 +84,27 @@ const HomePage = () => {
           />
           <i className="fas fa-search search-icon"></i>
         </div>
+        {currentUser ? (
+          <Link to="/profile" className="profile-icon">
+            {currentUser.photoURL ? (
+              <img
+                src={
+                  "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                }
+                alt="Profile"
+                className="profile-image"
+              />
+            ) : currentUser.displayName ? (
+              currentUser.displayName.charAt(0).toUpperCase()
+            ) : (
+              "U"
+            )}
+          </Link>
+        ) : (
+          <Link to="/login">
+            <button className="login-btn">Login</button>
+          </Link>
+        )}
       </header>
 
       <section className="main-content">

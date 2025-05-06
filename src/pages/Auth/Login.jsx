@@ -28,9 +28,25 @@ const Login = () => {
     e.preventDefault();
     setError("");
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      const userCredential = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+      await auth.currentUser.reload(); // 🛠 Add this line
+
+      const user = auth.currentUser;
+
+      // await signInWithEmailAndPassword(auth, email, password);
       alert("Login successful!");
-      navigate("/ ");
+      // Check if the logged-in email is admin
+      if (user.email === "kaleeshwari894@gmail.com") {
+        navigate("/audio-upload"); // Admin -> Upload page
+      } else {
+        navigate("/"); // Normal user -> Home page
+      }
+
+      // navigate("/ ");
     } catch (error) {
       setError("Invalid email or password");
     }

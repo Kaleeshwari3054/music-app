@@ -32,15 +32,7 @@
     padding-bottom: 5px;
   }
   
-  h2::after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 4px;
-    background: #1db954;
-    margin: 8px auto 0;
-    border-radius: 2px;
-  }
+ 
   
   form {
     display: flex;
@@ -74,7 +66,6 @@
   }
   
   button:hover {
-    background: rgb(0, 213, 255);
     color: black;
     transform: scale(1.05);
   }

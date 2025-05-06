@@ -41,7 +41,9 @@ const Signup = () => {
         email,
         password
       );
-      const user = userCredential.user;
+      await auth.currentUser.reload(); // 🛠 Add this line
+
+      const user = auth.currentUser; // 🛠 Use updated currentUser
       await updateProfile(user, { displayName: username });
 
       await addDoc(collection(db, "users"), {
@@ -52,7 +54,14 @@ const Signup = () => {
       });
 
       alert("Registration successful!");
-      navigate("/"); 
+
+
+      if (user.email === "kaleeeshwari894@gmail.com") {
+        navigate("/upload"); // Admin -> Upload page
+      } else {
+        navigate("/"); // Normal user -> Home page
+      }
+      // navigate("/"); 
     } catch (error) {
       setError(error.message);
     }

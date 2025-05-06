@@ -1,0 +1,88 @@
+.filter-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filter-heading {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .language-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .language-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .language-btn.active {
+    background-color: green;
+    color: white;
+  }
+  
+  .songs-list {
+    text-align: center;
+  }
+  
+  .song-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .song-item {
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width:500px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .song-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .song-details {
+    margin-top: 10px;
+  }
+  
+  .song-details h4 {
+    margin: 5px 0;
+    font-size: 1.2em;
+  }
+  
+  .album {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .song-audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .back-home {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: green;
+    font-size: 1.2em;
+  }
+  

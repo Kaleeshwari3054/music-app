@@ -1,0 +1,15 @@
+.director-heading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color:  #44b36b;
+  color: white;
+  padding: 15px 0;
+  font-size: 24px;
+  z-index: 1000;
+  margin-bottom: 100px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
