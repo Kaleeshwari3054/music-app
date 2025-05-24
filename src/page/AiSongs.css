@@ -1,0 +1,81 @@
+.container {
+  padding: 30px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.left-panel {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.left-panel h1 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.left-panel input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+  border: 2px solid #2e7d32;
+  margin-right: 10px;
+}
+
+.left-panel button {
+  padding: 10px 20px;
+  background-color: #2e7d32;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left-panel ul {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 0;
+  list-style: none;
+}
+
+.video-item {
+  background-color: #f0fdf4;
+  border: 2px solid #c8e6c9;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 128, 0, 0.1);
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.play-btn {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.play-btn:hover {
+  background-color: #1b5e20;
+}
+
+.audio-player {
+  width: 0;
+  height: 0;
+  border: 0;
+  position: absolute;
+  left: -9999px;
+}

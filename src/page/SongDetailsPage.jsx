@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getDatabase, ref, get, set } from "firebase/database";
+import { getDatabase, ref, get, set, remove } from "firebase/database";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
 import { useAuth } from "../context/AuthContext";
@@ -89,28 +89,62 @@ function SongDetailsPage() {
     );
   };
 
-  const handleSaveToLibrary = async (song) => {
-    if (!currentUser || !song) return;
-    const userRef = doc(firestore, "users", currentUser.uid);
-    const userSnap = await getDoc(userRef);
-    const currentLibrary = userSnap.exists()
-      ? userSnap.data().library || []
-      : [];
-    const isAlreadySaved = currentLibrary.some((s) => s.id === song.id);
-    let updatedLibrary;
+  // const handleSaveToLibrary = async (song) => {
+  //   if (!currentUser || !song) return;
+  //   const userRef = doc(firestore, "users", currentUser.uid);
+  //   const userSnap = await getDoc(userRef);
+  //   const currentLibrary = userSnap.exists()
+  //     ? userSnap.data().library || []
+  //     : [];
+  //   const isAlreadySaved = currentLibrary.some((s) => s.id === song.id);
+  //   let updatedLibrary;
 
-    if (isAlreadySaved) {
-      updatedLibrary = currentLibrary.filter((s) => s.id !== song.id);
-      console.log(" Removed from Library");
-    } else {
-      updatedLibrary = [...currentLibrary, song];
-      console.log(" Added to Library");
+  //   if (isAlreadySaved) {
+  //     updatedLibrary = currentLibrary.filter((s) => s.id !== song.id);
+  //     console.log(" Removed from Library");
+  //   } else {
+  //     updatedLibrary = [...currentLibrary, song];
+  //     console.log(" Added to Library");
+  //   }
+
+  //   await setDoc(userRef, { library: updatedLibrary }, { merge: true });
+  //   setSavedLibrary(updatedLibrary);
+  // };
+
+  const handleSaveToLibraryRealtime = async (
+    song,
+    currentUser,
+    db,
+    setSavedLibrary
+  ) => {
+    if (!currentUser || !song || !song.id) return;
+
+    const songRef = ref(db, `users/${currentUser.uid}/library/${song.id}`);
+
+    try {
+      const snapshot = await get(songRef);
+
+      if (snapshot.exists()) {
+        // Song already exists in library, so remove it
+        await remove(songRef);
+        console.log("Removed from Library");
+      } else {
+        // Song not in library, so save it
+        await set(songRef, song);
+        console.log("Added to Library");
+      }
+
+      // Optional: fetch updated library to update UI
+      const libraryRef = ref(db, `users/${currentUser.uid}/library`);
+      const updatedSnap = await get(libraryRef);
+      const updatedLibrary = updatedSnap.exists()
+        ? Object.values(updatedSnap.val())
+        : [];
+      setSavedLibrary(updatedLibrary);
+    } catch (error) {
+      console.error("Error saving to Realtime DB:", error);
     }
-
-    await setDoc(userRef, { library: updatedLibrary }, { merge: true });
-    setSavedLibrary(updatedLibrary);
   };
-
   if (!song) return <div>Loading song details...</div>;
 
   const isSaved = savedLibrary.some((s) => s.id === song.id);
@@ -190,10 +224,26 @@ function SongDetailsPage() {
             {isLiked ? "❤️ Unlike" : "❤️ Like"}
           </button>
 
+          {/* {currentUser && (
+            <button
+              className="save-button"
+              // onClick={() => handleSaveToLibrary(song)}
+            >
+              {isSaved ? "Remove from Library" : "Save to Library"}
+            </button>
+          )} */}
+
           {currentUser && (
             <button
               className="save-button"
-              onClick={() => handleSaveToLibrary(song)}
+              onClick={() =>
+                handleSaveToLibraryRealtime(
+                  song,
+                  currentUser,
+                  db,
+                  setSavedLibrary
+                )
+              }
             >
               {isSaved ? "Remove from Library" : "Save to Library"}
             </button>

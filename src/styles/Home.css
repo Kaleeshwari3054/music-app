@@ -1,17 +1,7 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-  font-family: "Helvetica Neue", sans-serif;
-  color: #000000;
-}
+
 .Logo {
   color: #000000;
   background: none;
-}
-
-.container {
-  padding: 20px;
 }
 
 .heading {
@@ -29,17 +19,44 @@ html {
   gap: 15px; 
 }
 
-.menu-container {
-  position: relative;
+
+.mic-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #28a745;
+  animation: none;
 }
 
+.mic-button.listening {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    color: #28a745;
+  }
+  50% {
+    transform: scale(1.2);
+    color: #218838;
+  }
+  100% {
+    transform: scale(1);
+    color: #28a745;
+  }
+}
+
+/* 
 .menu-button {
   background: none;
   border: none;
   color: white;
   font-size: 24px;
   cursor: pointer;
-}
+} */
 
 .Categories-Songs {
   margin-left: 150px;
@@ -149,7 +166,7 @@ html {
 .song-card {
   width: 250px;
   padding: 10px;
-  height: 300px;
+  height: 350px;
   color: #000000;
   border-radius: 12px;
   overflow: hidden;
@@ -182,8 +199,7 @@ html {
   background-color: none;
 }
 
-.song-title,
-.artist-info {
+.song-title {
   margin: 4px 0;
   text-align: center;
   font-size: 15px;
@@ -221,54 +237,6 @@ html {
   color: #000000;
 }
 
-.now-playing {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #282828;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 999;
-}
-
-.now-playing-content {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  width: 100%;
-}
-
-.now-playing-image {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.now-playing-info {
-  flex-grow: 1;
-}
-
-.now-playing-title {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-  color: #000000;
-}
-
-.now-playing-artist {
-  font-size: 13px;
-  color: #000000;
-}
-
-.now-playing-controls {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 
 .control-button,
 .main-control-button {
@@ -276,11 +244,6 @@ html {
   border: none;
   color: #fff;
   cursor: pointer;
-}
-
-.volume-icon {
-  color: #fff;
-  margin-left: auto;
 }
 
 .mdirector-section {
@@ -351,4 +314,64 @@ html {
   font-weight: 600;
   color: #1a512e;
   margin-top: 8px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+
+
+.ai-box-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2ecc71; /* Green */
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 22px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  animation: popIn 0.5s ease-in-out;
+  transition: all 0.3s ease;
+}
+
+.ask-ai-button:hover {
+  background-color: #27ae60; /* Darker green */
+  transform: scale(1.05);
+}
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }

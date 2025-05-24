@@ -1,5 +1,8 @@
 /* General Container */
 .profile-container {
+  background: url("https://thumbs.dreamstime.com/b/music-19610285.jpg")
+  no-repeat center center fixed;
+background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;

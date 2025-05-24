@@ -145,18 +145,23 @@ export default function ProfileLibrary() {
               {savedLibrary.length > 0 ? (
                 <div className="library-song-grid">
                   {savedLibrary.map((song, index) => (
-                    <div key={index} className="library-song-item">
+                    
+                    // <div key={index} className="library-song-item">
+                    <div key={song.id} onClick={() => navigate(`/song/${song.id}`)} className="library-song-card">
+                    
+                      
                       <Link
                         to={`/song/${song.id}`}
                         className="library-song-link"
                       >
                         <img
-                          src={song.media?.cover_image_url || "default.jpg"}
+                          src={song.media?.cover_image_url || song.imageUrl}
                           alt={song.title}
                           className="library-song-image"
                         />
                         <p>
-                          <strong>{song.title}</strong> — {song.artist}
+                          <strong>{song.title || song.album}</strong> 
+                          {song.artist}
                         </p>
                       </Link>
                       <button

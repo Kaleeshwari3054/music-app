@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { getDatabase, ref, onValue } from "firebase/database";
+import { Link } from "react-router-dom";
 
 const LanguageFilterPage = () => {
   const [songs, setSongs] = useState([]);
@@ -178,6 +179,9 @@ const LanguageFilterPage = () => {
       )}
 
       <audio ref={audioRef} />
+      <Link to="/" className="back-btn">
+                Back to Home
+              </Link>
     </div>
   );
 };
